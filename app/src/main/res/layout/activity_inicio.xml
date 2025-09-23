@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Foto:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:id="@+id/ETNombreFoto"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Ingresa el nombre"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:background="@drawable/edittext_border"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/BTAceptar"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="ACEPTAR"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/bluesky"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>
