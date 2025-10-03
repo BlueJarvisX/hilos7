@@ -26,4 +26,15 @@
         android:backgroundTint="@android:color/holo_blue_dark"
         android:textColor="@android:color/white" />
 
+    <Button
+        android:id="@+id/btnHilosSensores"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:text="HILOS Y SENSORES"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp" />
+
 </LinearLayout>

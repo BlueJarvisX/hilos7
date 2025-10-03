@@ -6,10 +6,19 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Button btnHilosSensores;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        btnHilosSensores = findViewById(R.id.btnHilosSensores);
+        btnHilosSensores.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, HilosSensoresActivity.class);
+            startActivity(intent);
+        });
 
         Button btnHacerFoto = findViewById(R.id.btnHacerFoto);
         btnHacerFoto.setOnClickListener(v -> {
